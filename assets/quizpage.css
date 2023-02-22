@@ -57,3 +57,40 @@ border: 5px solid #F6F6F6;
 background-color: #F6F6F6;
 }
 
+.display-none1 {
+    display: none;
+    background-color: ;color: red;
+width: 500px;
+height: 143px;
+left: 0px;
+top: 0px;
+background: #FFF2F5;
+border-radius: 8px;
+font-size: 50px;
+padding: 0.5em;/*文字周りの余白*/
+border: solid 3px red;/*線色*/
+color:red;
+}
+.display-none2 {
+    display: none;
+    background-color: ;color: blue;
+    width: 500px;
+height: 143px;
+left: 0px;
+top: 0px;
+background: #EFF2F5;
+border-radius: 8px;
+font-size: 50px;
+padding: 0.5em;/*文字周りの余白*/
+border: solid 3px #364e96;/*線色*/
+color: #364e96;
+}
+
+.display-block {
+    display: block;
+}
+
+.answer_list .blue{
+
+    border-color: blue;
+}

@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
     <link rel="stylesheet" href="quizpage.css" />
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet" />
+    <script src="/assets/js/quiz.js" defer> 
+    </script>
 </head>
 
 <body>
@@ -54,17 +56,19 @@
             </div>
             <div class="Q1about_answer">
                 A 
-                <ul class="answer_list">
-                    <li>
+                <ul class="answer_list" id="buttonanswer">
+                    <li id="button_28">
                         28万人
                     </li>
-                    <li>
+                    <li id="button_79">
                         79万人
                     </li>
-                    <li>
+                    <li id="button_183">
                         183万人
                     </li>
                 </ul>
+                <p class="display-none1" id="right">A.正解</p>
+                <p class="display-none2" id="incorrect">A.不正解</p>
                 <div class="detail_answer_list">
                     経済産業省2019年3月ーIT人材需給に関する調査
                 </div>
